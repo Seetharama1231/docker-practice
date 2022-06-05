@@ -1,0 +1,4 @@
+FROM ubuntu:20.04
+ARG JDK_PKG_NM
+RUN apt  -y update
+RUN apt install -y $JDK_PKG_NM
